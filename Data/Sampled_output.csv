@@ -1,0 +1,1712 @@
+Workspace Name,Epic Name,Objective ,Final Requirement Description
+AION,AION for Causal AI,"[Causal AI] Prompt Creation 
+ ","As an end user, I should be able to ask my analysis related questions through a Prompt Handling Interface.
+
+The system should be able to recommend best practices on how to create an optimal prompt 
+"
+AION,AION LITE,"As a System, I should be able to do the data EDA 
+ ","The system has the capability to perform Exploratory Data Analysis (EDA), allowing it to analyze and understand datasets through statistical and visual methods, facilitating insights and decision-making. 
+"
+AION,AION for Causal AI,"[Causal AI] Data Massaging 
+ ","As a user I should be able to view the uploaded data & clean it up before proceeding to analysis.
+
+I should be able to manipulate columns, remove duplicate rows, recalculate derived columns 
+"
+AION,UX revamp with ReactJS,"Introduce user roles- Admin, Basic, Advanced 
+ ","Admin- assigns user roles
+
+Basic- views features under predict & explain. This user profile is execution oriented (Eg: marketeer in Unica, catalogue manager in GeM, etc.)
+
+Advanced- exhaustive feature set for a data scientist- also the current AION view. 
+"
+AION,AION Autopilot Mode,"As a system, I should be able to automatically select find the best performing model for regression use case. 
+ ","The system should automatically explore a range of machine learning algorithms and hyper-parameter settings to find the best-performing model for regression use cases. It should be able to do so for both tabular (structured) and text data. 
+"
+AION,AION Autopilot Mode,"As a system, I should be able to automatically select find the best performing model for classification use case 
+ ","The system should automatically explore a range of machine learning algorithms and hyper-parameter settings to find the best-performing model for classification use cases. It should be able to do so for both tabular (structured) and text data. 
+"
+AION,UX revamp with ReactJS,"Introduce Readability changes 
+ ","1. Remove config download on 'trained model' screen
+2. Maintain context in 'Advanced config'
+3. Introduce copy changes. Eg: (E)xplain, Zero(e)s
+4. No changes in EDA screens
+5. Remove AION labelled data under Data 
+"
+AION,AION for Causal AI,"[Causal AI] Data Analysis based on user prompt 
+ ","As a system, I should be able to perform analysis based on the data uploaded by the user & prompt entered by the user.
+
+System should be able to differentiate between data analysis & causal analysis.
+
+The end user is abstracted from identifying between these analysis techniques.
+
+For training data, the system should be able to select a training dataset with high quality spread to ensure representation of all possible scenarios. 
+"
+AION,UX revamp with ReactJS,"Home Screen table revamp 
+ ","1. Remove serial number
+2. Add use case ID instead of name
+3. Introduce description, created on
+4. Add filter per column 
+"
+AION,AION for Causal AI,"[Causal AI] Reports 
+ ","As a user, I should be able to review model results through reports generated for multiple use cases. 
+"
+AION,AION Autopilot Mode,"As a System, I should be able to conducts hyper-parameter tuning to optimize the configuration of the selected model. 
+ ","The system should be able to do automatic hyper-parameter tuning to optimize the configuration of the selected model. 
+"
+AION,AION Autopilot Mode,"As a system, I should be able to perform automatic feature engineering. 
+ ","As a system, I should be able to perform automatic feature engineering to create new features that might improve model performance 
+"
+AION,GEM- eMarketplace,"[GeM] As a system, I should be able to detect duplicate images at catalogue upload 
+ Catalogue Management in GeM: Duplicate image detection"," 
+This feature is a part of the anomaly detection capability.
+
+
+In case same product picture is uploaded for mulitple products, the system should be able to detect & provide an error msg ""This product image exists in the catalogue for Product with SKU ID xxx""
+
+
+The system should be able to alert the user on which product/SKU uses the image that is being uploaded.
+
+
+Prerequiste: AION should have the capability to ingest, store and process images"
+AION,AION LITE,"As a System, I should be able run specific problem type training 
+ ","The system should possess the capability to execute training processes tailored for specific problem types, such as classification or regression etc., enabling targeted model development. 
+"
+AION,GEM- eMarketplace,"[GeM] As a system, I should be able to detect QR code in a product image & lead the user to the corresponding link during ordering 
+ QR Code links in Product Images","Support for Product Image with QR 
+This feature is a part of the anomaly detection capability.
+
+
+The system should be able to read the QR code on a product image.
+
+The system should be able to take the end user to the link corresponding to the QR code in the product image.
+
+In case the link is attached approriately, an error msg should be displayed ""QR code link not working as intended.""
+
+
+Prerequiste: AION should have the capability to ingest, store and process images"
+AION,UX revamp with ReactJS,"Introduce Reports 
+ ","Add report downloads under 'Reports' section 
+"
+AION,AION LITE,"As a User, I should be able to do Input drift analysis as well as performance drift analysis. 
+ ","The system should possess the capability to conduct both input drift analysis, assessing changes in input data patterns over time, and performance drift analysis, monitoring variations in model performance, ensuring adaptability and reliability in dynamic environments to maintain effective and accurate predictive outcomes. 
+"
+AION,AION for Causal AI,"[Causal AI] Data Ingestion- Structured data 
+ ","As a system, I should be able to ingest data from multiple data sources- MySQL, Snowflake, Internal locations, etc.
+
+The system should be able to validate the quality of ingested data & throw exception messages in case the data being uploaded is not adhering to the quality levels.
+
+User should be able to share context & description for the data before starting analysis. 
+"
+AION,AION Autopilot Mode,"As a system, I should be able to do data preprocessing before consuming the data for model building. 
+ ","As a system, I should be able to do data preprocessing tasks such as handling missing values, encoding categorical variables, and scaling numerical features before data is fetched for model training/building. 
+"
+AION,AION LITE,"As a System, I should be able to create a deployable version which is smaller and faster 
+ ","The system should have the capability to generate a deployable version that is both smaller in docker size and faster to install (than AION full version) without compromising on the performance, optimizing efficiency, and facilitating smoother deployment in various computing environments 
+"
+Admin Client,Improve User Experience for 12.0.2,"Add the validjson tool into the admin client 
+ ","I would like to validate json files for a one-touch-setup on my local computer without installing a local domino server.
+
+Or a simple detached validjson.exe would be perfect. 
+"
+Connections,Complement Microsoft,"Round-trip Editing with Office 365 
+ ","Allow editing and round-trip updates using desktop plugin and locally installed Office clients, due to MSFT limitations for browser-based editing. Out of scope: O365 Online, mobile, Mac support. 
+"
+Connections,Tailored Experience,"TE: Templates for Communities 
+ Investigate current layout engine in ICEC","As a user I can select from existing Community templates to create my new Community. Templates contain page layouts, selected apps, selected content (e.g. a set of Files and Folders, Wiki pages). Templates will be based on the CEC Highlights layout engine. I can also request that a community be turned into a template and Admins will have a way of managing, organizing and categorizing templates. 
+* Is it scaleable?
+* is it extensible to 3rd party apps?
+* Can it be serialized?
+* Is it consistent across versions or supports a version-identifier to import/export between different versions?"
+Connections,Tailored Experience,"TE: Set Community Status based on Lifecycle 
+ ","Under Construction, Live, Read Only, Archived, Closed. Each status reflects a set of read/write rights per role. E.g. when under ""Archived"" no one can create content as the Community strictly serves as a memory for e.g. a finished project.
+
+Need to define rights per state and role, e.g. in ARCHIVED, MEMBERS can only READ
+
+While Private Community state might be a work around for ""Under Construction"", we have customers who do not allow Private Communities (Bosch, Mahle, Conti) 
+"
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Add SharePoint widget","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a Community Owner I can add a SharePoint widget to my Community so that Community members can see files and folders in the SharePoint library (folder) I specified
+
+From documentation:
+After you add the SharePoint widget to your community, configure it by specifying the hostname for the SharePoint server, a user name and password, the type of authentication to use, and the SharePoint Document Library you want to access."
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Working with Documents: Upload new version ","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a user I can upload a new version of an existing file so that I can keep my content current and keep one version of the truth.
+
+From Documentation:
+Click Upload new version and browse for the file to replace the document with a newer version."
+Connections,Absorb Services Assets,"ICXT: PDF Export 
+ ","Export and print selected content as a PDF , using templates, on both desktop and mobile. Admin and Community Managers can disable if required. 
+"
+Connections,Absorb Services Assets,"Connections Touchpoint 
+ ","Onboarding Connections users as quickly as 1 – 2 – 3! Turn new users into connected employees.
+
+* Step-by-step onboarding wizard
+* Connect with relevant people, suggest important communities
+* Highly customizable 
+"
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Working with Folders: Upload a file","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a user I can click upload to browse to a document on my desktop so that I can upload it to the selected folder.
+
+From Documentation:
+Click Upload document to and browse for a document to add to the folder."
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Working with Folders: Open a folder","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a user I can click on a folder so that I can see its contents like subfolders and files.
+
+From Documentation:
+Click Open to expand the folder and view subfolders and documents"
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Working with Folders: Renaming a folder ","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a user I can rename a folder so that I can better organize my folders
+
+From Documentation:
+Click Edit Properties to change the folder name."
+Connections,Tailored Experience,"TE: Manage Members 
+ ","Community Members need a better way to manage who can access, whose access needs to be revoked, etc. External users fall into this as well.
+
+We also need support for Groups to better manage large amounts of users, e.g. instead of adding 1000 sales people individually, a Group ""Sellers"" can be added.
+
+The concept of roles beyond Member and Owner needs to be expanded as well.
+
+Ideas from Aha for consideration:
+
+| IDEACNCTNS-I-151 | Adding or deleting Community member | 6 |
+| IDEACNCTNS-I-27 | List current members in Add Members screen | 2 |
+| IDEACNCTNS-I-32 | Request to enable the feature to add group as member in the community. | 1 |
+| IDEACNCTNS-I-358 | Hide (external-)member list for external users as option per community and/or per user | 2 |
+| IDEACNCTNS-I-408 | Add members to main and subcommunity simultaneously | 3 |
+| IDEACNCTNS-I-520 | Enhancement Request: Prepare the way to reflect the changes of group members immediately. | 2 |
+| IDEACNCTNS-I-637 | ADD Members to a sub-community risk to click on 'Add all members from the parent community' | 1 |
+| IDEACNCTNS-I-874 | community owner/member list report | 5 |
+| IDEACNCTNS-I-957 | Notify the community owner when member add/leave the community. | 2 |
+| IDEACNCTNS-I-997 | Adding new members to Moderated communities | 4 |
+| IDEACNCTNS-I-1027 | Community Member Management - Allow Bulk Removal | 6 |
+| IDEACNCTNS-I-1055 | add a third tab on members to see requests for membership in communities | 3 | 
+"
+Connections,Tailored Experience,"TE: Templates for Communities 
+ Review layout capabilities with 5 partners and 5 customers","As a user I can select from existing Community templates to create my new Community. Templates contain page layouts, selected apps, selected content (e.g. a set of Files and Folders, Wiki pages). Templates will be based on the CEC Highlights layout engine. I can also request that a community be turned into a template and Admins will have a way of managing, organizing and categorizing templates. 
+"
+Connections,Absorb Services Assets,"Connections Sidebar 
+ ","Surface Connections wherever you are and provide quick access to your network, content, people while in other applications.
+
+* Integrate Connections into any website
+* Share status updates without the need to switch to Connections
+* Monitor Connections activities easily 
+"
+Connections,Complement Microsoft,"MS Outlook Integration 
+ ","Two-way transfer of content between Outlook and Connections (Files, Profiles, Updates, Activities, Communities) . Support Windows, Mac, Browser, Mobile clients. Delivered as part of Component Pack and as standalone deliverable for existing customers. 
+"
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Upload File","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a Community Member I can add/upload a file from my desktop to the SP library so that I can share it with other Community members
+
+From documentation:
+To add a document, click Upload a Document and specify a file to upload and a destination folder."
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Working with Documents: Change properties ","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a user I can edit properties of a file, e.g. change the file name so that I can keep my library organized.
+
+From Documentation:
+To change the properties of a document, such as the name, click Edit properties. Edit the properties and save the changes."
+Connections,Absorb Services Assets,"Connections Invite 
+ ","Invite external users fast and efficiently. Bulk invite, self-service, and email templates remove
+
+* Seamlessly add external users without admin privileges
+* Self-service password changing and reset
+* Configure mail templates, allowed mail domains and notifications 
+"
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Create RSS feed to Library ","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a user I can copy and paste the RSS feed info so that I can view the list of files and folders from other environments.
+
+From Documentation:
+To create a feed of the SharePoint documents list, click Feed for SharePoints Documents List, copy the feed data, and paste it into your feed reader."
+Connections,Complement Microsoft,"Sharepoint: Work with SharePoint files/folders in Community 
+ Create folder","Access files and folders from SharePoint in my Community via a dedicated tab and a Community homepage widget . 
+As a Community Member I can create a folder in the SP library so that I can organize my files better
+
+From documentation:
+To create a folder, click New Folder and enter a folder name and description."
+Connections,Complement Microsoft,"MS Teams Integration 
+ ","One-To-One chat : Start a direct chat with a person right from the Connections Profile card, Important-To-Me bubble, or Profile page 
+
+Share with Channel:  If you see a Connections page that your team should see, simply click the share button on top to post to a channel 
+
+Messaging Extension:  When in Teams, simply share a recent Connections Community, File, Wiki, or browse your files right from your chat window 
+
+Connections Tab App:  Bring an entire Connections Community app to a Teams channel so that all members can easily find important project information 
+"
+Digital Experience,B2E - Elevate employee experiences built on DX,"Event Stream 
+ ","To create an engaging experience end-users can receive updates on what is happening in their sphere of influence; from colleagues, content they follow, applications that require attention or events that need a response.
+
+The event stream consolidates the incoming stream of updates and gives the end user an easy digestible view into what is happening in their work environment. 
+"
+Digital Experience,B2E - Elevate employee experiences built on DX,"Self-Service Apps 
+ ","Provide a robust integration layer to integrate applications into the B2E experience so end users can get all their work done in one place.﻿ 
+"
+Digital Experience,B2E - Elevate employee experiences built on DX,"User Generated Content Service (UGC) 
+ ","Wikis, Blogs and simple pages are all means by which end users can create content that is meant for internal consumption by other users without the rigor of corporate driven and highly regulated content.
+Collaboration is what drives this type of content creation - users can crate their personal Blog, or create a Wiki to keep track of notes and minute to an ongoing project.
+
+The self-publishing service provides a structure for pages that have been created so that other users can easily navigate what has been created.
+
+The main focus is on how easy it is to create content, from simple templates that define the purpose (i.e. Blog, Wiki, page), to embedded rich text editors that focus on easy of use by providing only what is needed. Embedding social features, Like, Comment, Rate are also supported.
+
+Optional approval steps can be added in case information require validation before publishing.﻿ 
+"
+Digital Experience,B2E - Elevate employee experiences built on DX,"People Service 
+ ","Requirements:https://hclo365-my.sharepoint.com/:w:/g/personal/rene_schimmer_hcl_com/EdfASNu4NEpLlJ3etNWBBaABp9Wn6Qc_u6mvasRmcz8krg
+
+Basic understanding & scope of the solution
+The People Service acts as a layer on top of an organization's User Directory (LDAP, AD, …). It adds another level of capability and more end-user focused features by going beyond the simple display of email or telephone numbers or handling authentication.
+
+With the People Service we add these capabilities:
+
+Provide SSO authentication (provided by separate SSO service)
+Collect, manage and share additional information about a user (e.g. Tags, Pronounciation, Interests, history, and more)
+Find a user based on any attribute, also facilitates Expertise Location
+Users can self-manage the information in their profile
+Ability to create connections between users (follow, invite)
+Leveraging AI (e.g. Suggestions, Relationship analysis, ...)
+Access via UI and API, documented end-points need to be available
+Get updates on events that other users triggered to follow e.g., projects (provided by separate Event Service)
+Discuss: User deactivation (including Anonymization and transfer of content ownership) vs. Deleting a user. The PS does not manage content (unlike CNX), so is this concept valid or N/A?
+
+
+
+
+The first MVP of people service will be focusing on developing features like
+
+Auth enabled (Prerequisite)
+Enable user profile management
+- User provisioning
+- User profile field customization
+Enable tagging
+User's Profile Photo will be fetched & managed.
+Enable tagging
+Business card functionalities.
+Search capabilities.
+Helm support.
+Making the product ready for the activity stream.﻿ 
+"
+Digital Experience,B2E - Elevate employee experiences built on DX,"Auth/ID Service 
+ ","Initiative - SSO Authentication Identity Management ServiceDescription - The goal of this initiative is to collate all the epic designed, and refined to deliver Authentication Service which is targeting to achieve a single solution to address Authentication, Identity Management, Authorization, and SSO scenarios across all HCL digital solution products using Keycloak.
+Some important considerations, and decisions -
+
+we will focus on achieving  Authentication scenarios first.
+No Authorization scenarios are prioritized.
+Working, and delivering Authentication services for DX, CNX, and LEAP as the first milestone
+features like Identity brokering, Two-factor authentication, Tokens, SSO, User federation,
+CUSTOMIZABLE UI, Backward compatibility, and support of different standards used by our customers will be delivered.
+
+
+
+
+Major epics -
+
+Pre-work epic - To help us collate all education, investigation, and validation stories - All most done.
+Base Service - An epic to deliver the core features of authentication service using keycloak, all the core work will be done here.
+Deliver Enchanted Keycloak Image along with Helm Chart support & Documentation too.
+Authentication service for DX - An epic to help integrate Keycloak, authentication service into DX as per DX use-cases & for its customer
+Deliver more DX-specific features, documentation & pipelines & adapters
+Authentication Service for LEAP - An epic to Improve integration of Keycloak and Leap on OpenLiberty through docs, automation, adapters
+Deliver more Leap-specific features, documentation & pipelines & Adapters
+Authentication service for VoltMX - Establish Keycloak as an SSO auth service for Volt MX B2E users
+Deliver more Volt MX-specific features, documentation & pipelines & Adapters
+
+Major Milestones -
+
+Milestone 1 - Deliver Isolated, independent Base Service (CF 214)
+
+Milestone 2 - Deliver DX, Leap-specific features. (CF 216)
+
+Milestone 3 - Deliver Volt MX-specific features. (TBD)﻿ 
+"
+Digital Experience,PD - Drag Elements and rearrange inside the canvas,"PD - Static Elements and Layout Elements 
+ ","Add and rearrange static elements inside the canvas.
+
+* Initial UI for Presentation Designer
+* Static Elements
+
+** Text
+** Image
+** Link
+
+* Layout Elements
+
+** Container
+** Grid
+
+Embedded whiteboard (https://hcl-software.aha.io/whiteboards/7430784701310006287?) 
+"
+Digital Experience,PD - Drag Elements and rearrange inside the canvas,"PD - Content Elements 
+ ","Add and rearrange content elements inside the canvas 
+"
+Digital Experience,SM - Modernize User Interface,"SM - Modernize Content Explorer 
+ ","Update the Site Manager's Content Explorer UI to make it look similar with the Enchanted components 
+"
+Digital Experience,SM - Modernize User Interface,"SM - Modernize Navigation Panel 
+ ","Update the existing navigation panel and make the UI components similar with enchanted components 
+"
+Digital Experience,SM - New feature requests,"SM - Search for a page within the site 
+ ","Make it easier for Practitioners to search for a page within the site. 
+"
+Domino,Nomad Web Support,"Templates pubnames.ntf - updates for Panagenda 
+ ","Addition of one visible view, a few forms, and a hidden view to this database design. The purpose is to at least be able to configure MarvelClient Migration Roaming and install MarvelClient databases. The visible view will be linked to from one or more new entries in the outline/navigator on the left, under the ""People"" and/or ""Configuration"" categories.
+
+These design elements will be provided by panagenda. 
+"
+Domino,Secure Mail for 14.0,"Security J.10.2 - Automate the creation of credstore.nsf on first server setup unless the admin opts out 
+ ","Auto-deploy credstore.nsf on first server setup unless the admin opts out. 
+"
+Domino,Improved Security in 12.0,"ChangePassword for NotesID's in Vault - Nomad Web 
+ ","A mechanism in the Notes ID vault for end users to change the passwords (if any) associated with their entries in the Notes ID vault, then we should take that into consideration when planning for future Domino releases.
+
+Background:
+
+Admin creates new Notes userID and sets an initial password. There is no prompt to change the default password for Nomad Web users. 
+"
+Domino,Secure Mail for 14.0,"Secure server Id with password and apply the password on server restart (Windows + Linux) 
+ ","Securing a server ID with a password is optional, but should be mandantory.
+The downside is that you cannot perform an unattended restart of the server ( Domino or / and OS ).
+
+So we need a mechanism to apply the password automatically.
+
+There is at least one 3rd party tool available ( BCC Domino Protect ). Domino Protect does a lot more than just apply the password.
+You can also write your own extension manager using cAPI to achieve the goal. This is what I have done.
+
+But I would like to see this functionality as part of the core product code.
+
+The options to create / store the password could be
+
+1. Set a password in the admin client and store it ( encrypted ) in a place where can access it during server restart.
+2. Let the code create a random, high complex password
+3. Let the code create a random, high complex password based on properties of the used hardware. This would it make more secure, because the password would not have to be stored anywhere on the machine. 
+"
+Domino,Foundational Improvements for 12.0.2,"J.7 - Upgrade to OpenSSL 3.0 for FIPS 140-2 support 
+ ","Upgrade to OpenSSL 3.0 for FIPS 140-2 support 
+"
+Domino,Improved Security in 12.0,"Fail2ban - Block IP Addresses in Case of Failed Login Attempts 
+ ","https://jira.cwp.pnp-hcl.com/browse/DNEXT-240
+
+SPR LJAS73HKFA: Internet Password Lockout Database shoulld store source IP addr of failed login attempts 
+"
+Domino,Reduce Technical Debt in 14.0,"Clean up ndext directory to give developers the choice to use newer open source libraries  
+ ","The ""ndext"" directory of Domino contains more and more open source and internal libraries that are automatically added to the JVM classpath of web apps (and probably agents as well), e.g.:
+
+* activation.jar => javax.activation version 1.1
+* BlueJavaHtmlSanitizer.jar => OWASP HTML sanitizer version 20180219.1
+* domino-acf-policies.jar => OWASP ACF policies for Domino
+* dlt.jar => com.ibm.dltj, version nightlybuild_DLT7113_HF_2010_05_17_Hursley
+* dservlet.jar => lotus.domino.server.*
+* dwabl.jar =>com.lotus.dwa.*
+* guava.jar => Google Guava version 19.0.0
+* ibmdirectoryservices.jar => com.ibm.directoryservices.ldap
+* icu4j.jar => ICU4J version 4.0
+* jsdk.jar => javax.servlet.* API, version probably 2.4
+* liveconn.jar => netscape.javascript.* LiveConnect API for browser applets
+* lmgfilter.jar => com.ibm.spamguru
+* mail.jar => javax.mail.* API 1.4
+* RMEval.jar => com.ibm.amw
+* stcommsrvrtk.jar => Sametime Java classes version SAMETIME8.0.2_20081209.0208_WIN32AIXSOLLIN_WESTFORD
+
+
+As a developer, the libs that hurt the most are the old versions of Google Guava, ICU4J and the OWASP HTML sanitizer.
+
+
+activation.jar even is a duplicate, because the JDK 1.8 rt.jar archive already contains this API.
+
+
+Having them in the JDK system classpath by default means we cannot use newer versions in our applications (except for some very experimental Java classloader tricks which also require higher Java privileges than standard XPages web apps have).
+
+Please clean this directory up or find a different implementation approach that lets us use newer lib versions in our apps.
+
+Karsten Lehmann, Mindoo GmbH 
+"
+Domino,Secure Mail for 12.0.2,"Antivirus scanning by supporting ICAP protocol 
+ ","Ability for Domino to scan mails for viruses by using the ICAP protocol.
+
+The iCAP protocol will return information about the content that was submitted, but will not take action on the content itself. Domino is requested to provide a configurable set of actions (e.g. delete mail, quarantine mail, tag&deliver, etc.) 
+"
+Domino,Reduce Technical Debt in 14.0,"ical will drop description if the ical stream comes over with a large size (approximately 50KB) 
+ ","If user send any skype meeting invite with more than 50 KB description, description is not visible in lotus notes client. I was able to reproduce the issue with notes client and domino version 11 as well. You will only see message ""The text in the body of this meeting notice exceeded iCalendar's maximum size limit and was removed. Ask the sender to include the text as an attachment to the body of the meeting notice to avoid this problem"". We also have an SPR # BLEE6C2N7T which was raised in 2005 but still not fixed. Screen shot attached for more details. See SPR for exact steps to reproduce the issue. 
+"
+Domino,Technical Debt 12.0.2,"Bring back DOTS support 
+ ","DOTS was an important addition in the panorama of the scheduled processes fo Domino.
+True, it was cumbersome to have to install the Social Component in order to have DOTS task but overall it was a ""breath of decent fresh air"". Considered the power of update sites, config docs and OSGi plugins, AMgr had definitively become an inferior option.
+
+We developed a few key solutions for our customers and now the support for DOTS has been literally removed from Domino 10. Considered that you decided to stop investing in XPages but you kept it I would have expected you did the same with DOTS.
+
+How I wish it were even slightly improved upon:
+
+* DOTS as core task (no separate installation)
+
+* 1 OSGi environment, not 2 (that is XPages and DOTS managed separately)
+
+* See IDEAAD-I-88 (https://domino.ideas.aha.io/ideas/IDEAAD-I-88) for other useful ideas
+
+It's truly disheartening to see DOTS gone after all the efforts that we put into building solutions for it.
+At the moment we are strongly discouraging our customers from ever upgrading to V10 because we don't have alternative solution but to stick with Domino 9. 
+"
+Domino,Secure Mail for 12.0.2,"Ability to encrypt a database programatically 
+ ","Ability to encrypt an existing database programatically
+
+Acceptance criteria:
+
+* functionality is provided for CAPI + LotusScript
+* Ability to identify which Notes ID was used to encrypt the DB
+* Ability to read the algortihm/encryption strength that was used 
+"
+Domino,Internationalization improvements,"Support of internationalized domain names in Notes and Domino 
+ ","Enable Domino to transfer to any IDN (=Internationalized Domain Name), blocking communication from/to customers where the domain name contains e.g. an Umlaut.
+
+The request is to provide Internationalized Domain Name (https://en.wikipedia.org/wiki/Internationalized_domain_name) support for:
+
+* Send mails to a mail domain with an internationalized domain name.
+* Receive from internet recipients with IDN domain name 
+"
+Domino,Reduce Technical Debt in 14.0,"Internet Lockout not per server, but per website or per domain. 
+ ","When you have a clustered Domino backend for hosting websites or web-apps, and you have a loadbalancer in front of them......and internet lockout only occurs per server.....it's possible that you end up on another cluster-member and can continue to login again. The current lockout is based on server, and not on websites|clusters|domains|etc
+
+
+Please add more options to internet lockout for clustered webaccess like block for entire domain or block for entire website. 
+"
+Domino,Technical Debt 12.0.2,"Linux: Support SELinux in Enforcing Mode 
+ ","SELinux is almost 20 years old now.  Most software that runs on Linux is well integrated into SELinux by this time and Domino should be, too.
+
+I would add that I've been routinely ignoring that instruction for quite a few years now and never seen an AVC Denial in CentOS nor RedHat Linux Enterprise. Maybe all that needs to be done is some testing to validate that installing and running Domino on Linux with SELinux in Enforcing mode does not cause known problems and is, therefore a supported configuration. This would enhance Domino's reputation in Security. See Promote Domino as the most secure thing on the planet (https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-959) .
+
+Clarification:
+
+So to clarify, what I'm asking for in this ""idea"" is for Domino support for SELinux by HCL testing installation and runtime of Domino with SELinux in Enforcing/Targeted mode.
+
+If no errors are observed, then the documentation should state that this is a supported OS configuration.
+
+If any access issues to system objects/files (like the mongodb example in my comment below) occur, then the fix would be implemented in the installation routine or alternately documented in the installation instructions and the knowledge base. 
+"
+Domino,Improve User Experience for 12.0.2,"Security G.5 - Review, redesign, and simplify SAML workflow and configuration 
+ ","Review, redesign, and simplify SAML configuration and workflow including direct involvement from UX. Currently many fields in idpcat.nsf are unused or used for multiple different purposes, and have textual labels that require referencing the source code to understand. The overall configuration workflow is as clear as mud, likely because the original implementation was fixated on only supporting one specific version of two specific IdPs – IBM TFIM and MS ADFS – and the more advanced SAML 2.0 support added in V10 had to be shoe-horned into that original limited framework.
+
+
+Case in point: When I tried to configure Web Federated Login and Notes Federated Login on my test server to start working on Nomad Federated Login – despite having full access to product documentation and the source code – I spent days fighting with the configuration before inviting the entire core security/admin team into an hour-long meeting where even the some of the people who were on the team that designed and implemented that functionality were reduced to guessing at how to correctly configure it.
+
+
+The best way to accomplish this simplification could involve a wizard of some kind to walk the end user through collecting the correct information and depositing it into the correct fields in the correct order. 
+"
+Domino,Reduce Technical Debt in 14.0,"Non-English IMAP Outlook Client ""Sent Item"" and ""Deleted Item"" folders are not being updated 
+ ","When connecting to Domino server via IMAP using non-English(Arabic, Korean, etc.) Outlook client, the ""Sent Item"" and ""Deleted Item"" folders are not being updated.
+
+You already have the notes.ini parameter EnableImapFolderSynch=1 (https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0029716) and re-enabled the IMAP support on the database but still these folders are not being updated.
+
+When using Outlook in English language, the Sent and Trash folder is being updated properly.
+
+
+On Notes/Domino environment, the sent and draft messages are stored in a VIEW called ($Sent) and ($Draft). However on Outlook/IMAP they store the sent and draft mails on a FOLDER. That is why when you check the folder list on designer client you would see folder with an alias of ""IMAPSent"" and ""IMAPDrafts"". These folders are use for IMAP sync by the Domino server.
+
+
+Outlook client that is not in English is creating new folders that translates to ""Deleted Items"", ""Sent Items"", and ""Junk Mail"".
+
+If you open the database using a Designer client you will see folders created by the user ID you use to setup IMAP.
+
+
+Since the other folders are created by Outlook, they are not used to sync Sent and Draft mail by the Domino server. This can cause confusion to end users on why those folders are empty. The folders (in English language) ""Sent"", and ""Draft"" can be used to view sent and draft mails.
+
+
+So it will be great if Domino syncs ""Sent"" and ""Draft"" with the translated folders created by outlook in non- English IMAP outlook Client. 
+"
+Domino,Technical Debt 12.0.2,"Linux : Kernel 5.x support 
+ ","Support for Linux 5.x Kernel, which is used in a number of Linux distros, e.g.
+
+* SUSE Leap / SLES 12 SP3
+* PhotonOS
+* Oracle Linux 8.5
+* Ubuntu 20.x LTS
+* Debian 11
+* Microsoft WSL 2
+* CentOS/RHEL 9 
+"
+Domino,Reduce Technical Debt in 14.0,"$MessageID disparities for same message to different recipients 
+ ","Issue details:
+Installed Software:
+Work Server 10.1.1 R2 (101.1.38) cluster
+Work Server Config for duplicate detection:
+Duplicate Detection Type: 2
+Server-Side Duplicate Detection: Y
+Server-Side Duplicate Detection Type: 0
+WorkSite Communication Server 9.0 SP1 for Lotus Notes (90.1000.6)
+EM for Lotus Notes 93.1.86
+DeskSite 93.4.43
+OffSite 93.4.39
+
+
+How to reproduce the Email Duplicates:
+1. Send and File a mail to an internal recipient and an external recipient.
+
+2. The mail will be filed to iManage; in this case the MSG ID is:
+OF1A243DA6.44F8EBF3ONC12582EF.006896D3C12582EF.00693459@externaldomain.org
+
+3. The internal recipient's Inbox filer within Lotus Notes will also file the received mail into iManage -> no duplicate detection.
+MSG ID if this mail is:
+OF1A243DA6.44F8EBF3ONC12582EF.006896D3C12582EF.006933D7@LocalDomain
+
+
+Further Information / status (from iManage investigation)
+
+During our investigation of NT-55737, we also see the message id of the document imported by WCS is different from message id of the email imported from the Inbox.
+Message id from the EML file in WCS drop folder: <OFD60E6F6D.56B66206-ON6525830D.003E64CD-6525830D.003E6AEC@imanage.com>
+
+Message id of the same email in my Inbox: <OFD60E6F6D.56B66206-ON6525830D.003E64CD-6525830D.003E6ADE@LocalDomain>
+
+Because of this, duplicate detection is failing. If the user imports the message from their Inbox more than once, duplicate detection works fine, as the message id is identical. We're investigating why Domino server would stamp different message ids to different copies of the same message. We're also investigating if a there is a workaround available to work around this issue. I've reach out to Engineering for the current status update that I will share with you.
+
+IBM has reached out to us on behalf of the Customer to develop a possible solution with duplicate email detection; as there is a difference in the MessageID value when comparing the same email from the user's inbox with the one sent to the COM Server. We use the MessageID as a unique identifier in our duplicate detection process. 
+"
+Domino,Simplify Administration 12.0,"AdminCentral : User Management 
+ ","A User Management Tool that can be used from Notes + Nomad
+
+Depending on access rights the interface shall either provide:
+
+* End user self service
+* Administration services for User Administrators.
+
+Note: ""User administrators"" are a subset of Domino Admins who are focussed on only managing user records.
+
+Acceptance criteria:
+
+* Ability to manage users
+*
+
+** Create/Read/Update/Rename/Delete/Suspend/Recover of user records
+
+* Always create Notes.ID for a new user, regardless on what client that user will prefer.
+* Ability to see which group a user is a member of
+* End user self service:
+
+** Ability for end user(=owner of the record) to update:
+phone number, address details, photo, out of office status (enable/disable)
+** The end user self service options shall only be available if the directory details are not syncronized from another data source like MS AD.
+
+Example of what this user interface could look like:
+
+(screenshot is from Microsoft Azure AD management interface) 
+"
+Domino,Reduce Technical Debt in 14.0,"Restrictions for Wrong password limit for downloading Notes ID file from the ID vault 
+ ","""Error: You have failed to supply the correct password too many times. Please contact your system administrator."" is reported when wrong password is supplied multiple times to download ID file from IDVault to notes client.
+
+By Default, when user supplies wrong for more than 10 consecutive times a day, user will get reported error message in notes client. You can adjust the count by using IDVault_Max_Auth_Failures=n Parameter.
+
+But is it possible to have a option or parameter with which, the Notes client don't prompts this error message no matter how many times I make a mistake.
+
+So this will reduce the administrator intervention as bad password cache will be reset after 24 hours from the time you get the error message or Administrator will have to reset the Notes user password from IDVault to reset failed attempts count. 
+"
+Domino Designer,Security Enhancement,"Soap 1.2 support 
+ ","Web service providers and consumers in native Notes have been good but need support for soap 1.2 and get support for some more complex definitions to make it possible to use in today's integrations. 
+"
+Domino Designer,Technical Debt,"Allow JAR files to be used in Java agents 
+ ","Currently we use JAR files in XPages but cannot use the same JAR in a Java agent without copying it but it won't work anyways because of a memory leak bug when using JAR in a Java agent. One JAR file should be usable from XPages code and Java agents. 
+"
+Domino Designer,Stretch Goals,"Add view filter option to columns, where user can select documents to be displayed 
+ ","You might know filter option in LibreOffice or Excel, where user can reduce the shown documents to selected values.
+
+Of course, this can also be done by using a search formula, but most users are not experienced with the syntax of notes search.
+Adding this feature will simplify the usage for users and it might also help to reduce the number of required views in a database.
+
+When a filter is active, calculated summary and totals in categorized views should base on current shown documents. 
+"
+Domino Designer,Stretch Goals,"New application field types and capabilities 
+ ","As a Domino application developer, I need new application field types and field capabilities in order to be able to build a modern experience for my users. 
+"
+Domino Designer,Technical Debt,"Remove 32k limit for text-fields 
+ ","Alternatively, implement a feature to dynamlically ""extend"" these fields (e.g. create an 2nd, 3rd etc. internal field which keeps values exceeding 32k)
+
+Please ;-) 
+"
+Domino Designer,Stretch Goals,"Sample apps that devs can built on 
+ ","Provide a template which already includes the recommended application design, e.g. icons, stylings, etc.
+
+The template does not need to have any functionality. 
+"
+Domino Designer,Stretch Goals,"File upload control - support multiple files 
+ ","The web has evolved since the file upload control on standard web forms was created. You can now upload multiple files. Please extend the functionality to allow multiple files to be uploaded.
+
+Edit: to be clear this is for standard web forms, not XPages. 
+"
+Domino Designer,Improve User Experience for 12.0.2,"Make text color computable ( @formula ) 
+ ","If you want to conditionally change the text color of an item or computedtext object in a client based Notes application, by now you need to have duplicates with according text colors that are shown / hidden depending on hideWhen. ( see screenshot sample ).
+
+I would like to see a new property for such items to set the RGB values using @formula.
+
+Sample
+
+@if(onSendEnabled=""1"";""225,225,225"";""255,255,255"");
+
+or
+
+@if(onSendEnabled=""1"";@Color(""LIGHTGRAY"");@Color(""BLACK""));
+
+from eknori 
+"
+Domino Designer,Application Development capabilities enhancements 12.0.1,"Sort DocumentCollection in LotusScript 
+ ","We need the ability to sort Document collections, like NotesDocumentCollection.Sort(FieldNameArray)
+
+=> NotesQueryResultProcessor class is able to sort results 
+"
+Domino Designer,Stretch Goals,"Designer support mulitple monitors 
+ ","Most developers work with multiple monitors. Currently it is not possible to move a tab out of the designer window into a new window onto another screen. However, this is possible in the native Eclipse IDE.
+
+Acceptance criteria:
+
+* Ability to move a window/tab from Domino Designer to a new (standalone) window
+* Ability to move this new (standalone) window to a second screen 
+"
+Domino Designer,Support for Bootstrap 4,"Add Bootstrap 4 support for XPages 
+ ","Add support for Bootstrap 4 in XPages like Bootstrap 3 is supported. 
+"
+Domino Designer,Stretch Goals,"Show line numbers when using LotusScript Debugging (stepping through) 
+ ","When stepping through code in LotusScript, line numbers are not shown.
+
+Please show the line numbers when stepping through code.
+
+It is helpful to identify the location of the error, take screenshots to share with other developers. 
+"
+Domino Designer,Stretch Goals,"XPages - Task force Outcome 
+ ","please upgrade JSF engine of XPages to the last version... 
+"
+Domino Designer,Stretch Goals,"Add hex input for color picker AND a color picker please 
+ ","As a developer who also uses HTML/Js, it would be very helpful if I could
+
+a.) also input hex value like #008acc instead of rgb only
+
+b.) also could pick a color from screen :) 
+"
+Domino Designer,Technical Debt,"64 bit Domino Designer (Group 1 Languages) 
+ ","Group1 Languages only 
+"
+Domino Designer,Enhanced End User Experience for Application,"Ability to include high quality Icons for Rendering  
+ ","As a Domino application developer, I need the ability to include high quality icons in
+my applications that render sharp at various resolutions to meet the
+modern application standards that are driven by modern device resolutions
+
+* Adding support for large database icons in Designer, which will shrink to
+64x64px when displaying them.
+* Shrink larger icons to the size that the Notes Client can display.
+
+
+Dependency on UX : need to provide high quality icons for
+
+1. Mail
+2. Discussion
+3. TeamRoom
+4. Pernames
+5. Bookmarks
+6. Notebook 
+"
+Domino Designer,Technical Debt,"Update CKeditor  
+ ","The latest CKeditor patch https://ckeditor.com/blog/CKEditor-4.9.2-with-a-security-patch-released/ was not included in FP10IF5 and needs to be updated with domino code as there are security vulnerabilities 
+"
+Domino Designer,Stretch Goals,"Support JSON in @Formula language 
+ ","Web applications heavily use data in JSON format, in many cases with deeply nested structures. In our applications, we store JSON structures in text fields (Domino R12 will extend the max size of text items, so that there's just an overall limit of 16 MB summary data per doc), but Domino currently has no built-in support to show JSON field values in view columns or use it in NSF searches.
+
+Just mapping JSON key/value pairs to document items 1:1 is not sufficient, because the JSON structures are often deeper than just one level.
+
+
+Let's say a document contains a text item ""myjsonfield"" with the following JSON content:
+
+{
+	""firstname"": ""Peter"",
+	""lastname"": ""Miller"",
+	""keywords"" : [ ""important"", ""sendnewsletter"" ],
+	""companies"" : [
+		{ ""label"": ""ACME"", ""id"": ""ID1"" },
+		{ ""label"": ""HCL"", ""id"" : ""ID2"" }
+	],
+	""birthday"" : {
+		""year"" : 1979,
+		""month"" : 5,
+		""day"" : 26
+	},
+	""address"": {
+		""home"": {
+			""street"": ""Test street 5"",
+			""city"": ""New York""
+		}
+	}
+}
+
+
+Please add the following formulas so that we can easily parse/extract parts of the JSON object (listed with expected values):
+
+// extract single JSON value via their path in the tree structure:
+@JsonValue(myjsonfield; ""address.home.street"") == ""Test street5""
+@JsonValue(myjsonfield; ""birthday.year"") == 1979
+@JsonValue(myjsonfield; ""keywords"") == ""[\""important\"" : \""sendnewsletter\"" ]""
+@JsonValue(myjsonfield; ""keywords[0]"") == ""important""
+@JsonValue(myjsonfield; ""address.home"") == ""{ \""street\"" : \""Test street 5\"", \""city\"": \""New York\"" }""
+
+// get the type of JSON structure values:
+@JsonValueType(myjsonfield; """") == „jsonobject""
+@JsonValueType(myjsonfield; ""address.home.street"") == „string""
+@JsonValueType(myjsonfield; ""address.home"") == „jsonobject""
+@JsonValueType(myjsonfield; ""birthday.year"") == „number""
+@JsonValueType(myjsonfield; ""companies"") == „jsonarray""
+@JsonValueType(myjsonfield; ""companies[0]"") == „jsonobject""
+
+// get the length of JSON arrays:
+@JsonEntries(myjsonfield; ""keywords"") = 2
+
+// get a single JSON array item:
+@JsonEntry(myjsonfield; ""keywords""; 0) = ""important"";
+@JsonEntry(myjsonfield; ""keywords""; 1) = ""sendnewsletter"";
+
+@JsonEntry(myjsonfield; ""companies""; 0) = ""{ \""label\"" : \""ACME\"", \""id\"" : \""ID1\"" }"";
+@JsonEntry(myjsonfield; ""companies""; 1) = ""{ \""label\"" : \""HCL\"", \""id\"" : \""ID2\"" }"";
+
+// get all keys of JSON objects
+@JsonKeys(myjsonfield; ""address.home"") == ""street"" : ""city""
+
+@JsonKeys(myjsonfield; """") == ""firstname"" : ""lastname"" : ""companies"" : ""birthday"" : ""address""
+
+// return all available JSON paths of subtrees so that we can use them in @transform to traverse the whole JSON structure:
+@JsonPaths(myjsonfield; """") = ""firstname"" : ""lastname"" : ""keywords"" : ""companies"" : ""birthday"" : ""birthday.year"", ""birthday.month"" : ""birthday.day"", ""address"" : ""address.home"" : ""address.home.street"" : ""address.home.city""
+
+@JsonPaths(myjsonfield; ""address"") = ""home"" : ""home.street"" : ""home.city"" 
+"
+Domino Designer,Stretch Goals,"Add @formula to View Column Title 
+ ","Currently the view column title is using a fixed string. It is not possible to compute the column title.
+
+Acceptance criteria:
+
+* Ability to use @Formula to calculate the view column title for display. 
+"
+Domino Designer,Technical Debt,"Debugger : Show fields in alphabetical order 
+ ","When debuging LotusScript, show the list of fields in alphabetical order 
+"
+Nomad,Support Major Browsers,"Support for Firefox 
+ ","Support for Firefox 
+"
+Nomad,Support Major Browsers,"Support for Chrome 
+ ","Support for Google Chrome & Chromium Edge Browser 
+"
+Nomad,Kiosk Mode for Nomad,"Customise the HCL Nomad logo on screen 
+ ","Need to be able to remove/change the HCL Nomad logo in the top right of the screen. 
+"
+Nomad,Kiosk Mode for Nomad,"Define what application starts on the Nomad client 
+ ","Define which application opens when the user opens Nomad.
+
+Should be defined by an administrator and not changeable by the user. 
+"
+Nomad,Kiosk Mode for Nomad,"Make the Home screen optional 
+ ","Make it possible that the ""Home"" screen is not the start screen and it's not possible to get back to it.
+
+
+Should be able to make the Workspace page the default start page 
+"
+Nomad,Kiosk Mode for Nomad,"Control the top level menus that are displayed 
+ ","Control the menus that displayed in either the workspace or applications.
+
+
+Workspace
+
+Views
+
+Documents 
+"
+Nomad,Kiosk Mode for Nomad,"Ability to hide replication options from users 
+ ","Admin should be able to hide replication options from users
+
+Be able to force replication on close (like the Notes client) 
+"
+Notes,Panagenda requirement for v12 - MarvelClient,"Option to load Panagenda Marvelclient by default in Notes client 
+ ","* Provide a reliable, centrally administrable mechanism to have Clients enable/disable load the MarvelClient add-in
+* 'Big Switch' just to get the add-in loaded, the expectation is that MarvelClient itself will be used to provide finer grained control
+* Must not require execution of Panagenda code until the administrator 'throws the switch'
+* OK to require a Notes restart to take effect
+* Solution targeted for V12 but should be feasible to back port to V11.0.x 
+"
+Notes,Modernize Workspace - A brand new user interface with modern behaviour,"Modernize workspace 
+ ","Redesign Notes Client workspace to provide a more modern user interface.
+
+Key to success is DESIGN, not just the ability to skin the UI.
+
+The following mockups are examples that were created by the community. 
+"
+Notes,Fix language gap - phase 1,"Translation : Finnish (Standard+Basic+Admin+Designer) 
+ ","Finnish (fi) translation for:
+
+* Notes Standard Client
+* Notes Basic Client
+* Designer Client
+* Admin Client 
+"
+Notes,Fix language gap - phase 1,"Translation : Hungarian language (Standard+Basic+Admin+Designer) 
+ ","Hungarian translation for:
+
+* Notes Standard Client
+* Notes Basic Client
+* Designer Client
+* Admin Client 
+"
+Notes,Enhanced Perfomance -  A robust and responsive client,"Improved performance on slow networks 
+ ","Acceptance Criteria:
+
+To make sure that Notes Client will not hang when it is connected to slow networks or VPN or wifi without internet 
+"
+Notes,Improve Notes Client Usability,"Automatic language detection for Spell check 
+ ","Automatically detect the language for spell check or allow to select more than one default dictionary
+
+Like done in MS Word, the text should have a language setting that will be picked up by the spell checker.
+
+When typing text the system language settings should be used
+
+More details:
+
+https://stackoverflow.com/questions/12951067/how-to-determine-the-current-input-language 
+"
+Notes,Improve User Experience for 12.0.2,"Managed default/common email signature 
+ ","Most of the client require admin policy to setup common/default signature - sometimes very useful to do branding activity. Currently we recommend 3rd Party like crossware.
+
+Admin control signature for users/groups or at org level
+
+But it will be good if we can provide this facility for Notes Client, iNotes, VOP, Verse Mobile App 
+"
+Notes,Fix language gap - phase 1,"Translation : Hebrew language (Standard+Basic+Admin+Designer) 
+ ","Hebrew translation for:
+
+* Notes Standard Client
+* Notes Basic Client
+* Designer Client
+* Admin Client 
+"
+Notes,Enhanced Perfomance -  A robust and responsive client,"Improve performance of Notes client 
+ ","Acceptance Criteria:
+
+Improve performance of Notes clients in various aspects which includes:
+
+
+1. Start-up performance by 20%
+2. Improve the performance of opening mail and calendar in Notes Client by 5% when compare with Notes v11 
+"
+Notes,Modernize Workspace - A brand new user interface with modern behaviour,"Document Property Box -  Resizable  
+ ","Integrate with Panagenda Document Property Box 
+"
+Notes,Improve Notes Client Usability,"Add SHIFT-CTRL-A to deselect all in a view 
+ ","Able to use a keyboard shortcut: Add SHIFT-CTRL-A to deselect all in a view 
+"
+Notes,Fix language gap - phase 1,"Translation : Catalan language (Standard+Basic+Admin+Designer) 
+ ","Catalan translation for:
+
+* Notes Standard Client
+* Notes Basic Client
+* Designer Client
+* Admin Client 
+"
+Notes,Improve Notes Client Usability,"Mail Merge in Notes 
+ ","Background:
+
+In various workflow, business users need to send out batch emails that are personalised for each recipient. Normally, these users have a spreadsheet/document with multiple columns that may contains first name. last name, position or any kinds of personalised information. They would like leverage this document as a date source, together with an email template with placeholders (merged fields) so that the email template will take in the information and personalised the email for each recipients
+
+Acceptance Criteria:
+
+As a user, I would like to be able to import a spreadsheet which contains the information that could fill the placeholders in the email template so that I do not have to manually change the name, address or any personal information for each recipient
+
+Example:
+
+Dear {name}
+
+{Address}
+
+This is a greeting email from HCL Software
+
+In this case, {Name} and {Address), they are placeholder(merged field) that will consume the data provided in the spreadsheet
+
+Reference:
+
+A similar solution exists but requires customization of the mail template
+
+http://www-10.lotus.com/ldd/nd85forum.nsf/DateAllFlatWeb/A8B70A54B18A60AE852579EB006B8829
+
+or here
+
+http://www.dominoguru.com/page.xsp?id=product-mailer.html 
+"
+Notes,Modernize Workspace - A brand new user interface with modern behaviour,"Workspace - Ability to move Workspace Tabs by mouse operation 
+ ","Background:
+
+Currently, in the workspace of Notes, user is not able to move the position/order of the tab by any means. This creates frustration to user when their work priority changes.
+
+Acceptance Criteria:
+
+As a user, I would like to move the position of the tabs in the navigation by mouse, in a way of drag a drop, i.e. I could use the mouse to freely move the order the tabs no matter of what the original position is. 
+"
+Notes,Modernize Workspace - A brand new user interface with modern behaviour,"Workspace - Better highlight and search of currently or most recently used Notes App on workspace page.  
+ ","For an Admin or person working with many (many!) workspace icons, with R10 it's now very hard to see the icon when the default Workspace background is not in use.  It would be nice (okay I'm reaching here) to be able to (1) Search the 'Workspace' for the db title you want to find (it only starts/uses with first letter typed currently) and (2) actually highlighted the db with a much darker (or selectable) color.  Of course, if the 'History' was something more like 'Recent apps used' then kept a run of the past 10 for example, that would be very helpful as well. 
+"
+Notes,Improve Notes Client Usability,"Auto-Update Notes Client 
+ ","Self upgrading Notes client. More easy to use than SmartUpgrade
+
+Auto-update 
+"
+Notes,Remove Legacy Features,"Remove NetBIOS Option In Notes Configuration Setup. 
+ ","The Notes Client Setup dialog is offereint ""Netbios, LANManager"" and other old/obsolete protocols.
+
+
+Acceptance criteria:
+
+- Remove all obsolete protocols from the list
+
+- Default to TCP/IP (without the need to select anything in the dropdown list), optionally even remove the choice box completely. 
+"
+Notes,Mail Experience Improvement -  Mail Usability ,"Right click on an link in a received mail should offer: Copy URL/URI Link  
+ ","1. You receive an email with a nicely formatted link in the Notes client.(e.g. pointing to this site here ""View idea"")
+2. Now try to create a new message/mail
+3. Try to just copy that link from the received mail message into your new message/mail.
+4. You right click on the link in the message and Notes gives you only ""Copy"" and ""Copy as Document Link""
+5. You miss the option: ""Copy as URL/URI Link""
+
+A lot of my users would really like to see that little helper in the context of the right-click menu. Just copy the URL to the clipboard. 
+"
+Notes,Meeting Tool Integration,"Domino Online Meeting Integration 
+ ","As a user, I wish to click on the ""Add a Zoom/MS/Webex/GTM meeting""
+So that an instant meeting will be generated and being added to the location field.
+
+Acceptance Criteria:
+
+* Able to obtain authentication token from 3rd meeting vendor through HCL hosted site
+* Able to turn on/off DOMI feature using an organisation-level policy
+* Able to add/update/delete the instant meeting from notes client interface and the updates should be in sync with the 3rd meeting calendar
+* Able to manage the DOMI feature via user preferences 
+"
+Notes,Fix language gap - phase 1,"Translation : Catalan language (Standard+Basic+Admin+Designer) 
+ ","Catalan translation for:
+
+* Notes Standard Client
+* Notes Basic Client
+* Designer Client
+* Admin Client 
+"
+Safelinx,Domino Integration,"Check IF-Modifed-Since for local image requests 
+ ","The integrated Domino log screens contains a big background.   Add function to set the Cache-Control and to check the If-Modified-Since header token on requests.
+
+Send a 304 if the request is current, 200 if stale. 
+"
+Safelinx,Domino Integration,"Package for Domino installer 
+ ","Install packages to work with Domino installer.    Verify silent install for both Windows and Linux platforms such that the packages can be installed as part of Domino installer. 
+"
+Safelinx,Domino Integration,"Domino change password notification 
+ ","Possible customer request to make use of the ""change password on next login"" attribute set in a Domino directory server record.
+
+Add check as part of the regular ldap bind authentication method
+
+Redirect user to a change password URL.
+
+Provide configuration options to enable and to set the URL??
+
+Useful for Verse Web and any other browser based applications. 
+"
+Safelinx,Nomad Web Proxy,"Nomad specific http service resource 
+ ","Add a nomad specific http service resource.   Only show what is relevant to Nomad and set the appropriate defaults. 
+"
+Safelinx,Nomad Web Proxy,"Nomad Web Proxy configuration wizard 
+ ","Provide a configuration path to walk the admin through configuring SafeLinx as a Nomad Web proxy.
+
+Only show options for that task.
+
+Access Manager -> Gateway -> Directory Server -> LDAP auth ->  -HTTP Service. 
+"
+Sametime,"Brand New Meetings product with Audio, Video, Screenshare","Elimination of browser plug-ins 
+ ","Installed client; WebRTC when available 
+"
+Sametime,"Brand New Meetings product with Audio, Video, Screenshare","Options to join the meeting 
+ ","Options to join the meeting - guests/authenticated users/external users 
+"
+Sametime,Chat Enhancements,"Improve Markdown handling and provide Help toolkit 
+ ","This feature provides help screen from option to show Markdown and Keyboard shortcuts for formatting chat messages from Web and PWA clients. 
+"
+Sametime,Chat Enhancements,"Connecting multiple Sametime servers to support persistent chat 
+ ","Starting with Sametime V12, the ability to trust 2 Sametime server deployments has been removed.
+Customers use this functionality to combine 2 different network deployments under the same directory of users into 1 ""community"" (i.e. chat solution). Users from network A can chat with users from network B. Starting with V12 this is no longer supported and available
+
+Persistent Chat support for 2 separate Sametime server deployments connecting over port 1516, each with its own MongoDB instance
+
+How a Sametime server establishes a community connection with other Sametime servers
+https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0032779 
+"
+Sametime,Sofy Support for Chat,"Containerization work for Chat to support SoFy platform 
+ ","Sametime Sofy Chat and Meetings offering 
+"
+Sametime,Chat Enhancements,"Chat Branding and Allow log in page modifications 
+ ","Please help add a way to add a custom code.
+
+We want to edit the login page to have guest logins in sametime chat.
+
+
+CS0632876
+
+* I'm working with a Sametime 12.0.2 Premium customer to enhance the login experience. Specifically, the customer wants to modify the login page so that an anonymous user can ""log in"" and look up any existing Sametime user and initiate a chat session.
+
+What are my options for *directly* modifying the chat and/or meeting login pages? If possible, I'd like to modify pages such as:
+https://meetings.myhclsandbox.com/login
+https://help.hcltechsw.com/sametime/1202/meetings/manage_meetings.html
+https://help.hcltechsw.com/sametime/12/webchat/t_login_logout.html
+
+I'm aware of the Client Platform SDK (https://meetings.myhclsandbox.com/sametime-api/client-platform/client-platform.zip) -- is this the only method for making these types of modifications?
+
+
+CS0647800
+
+* Looking for ways for customer to insert custom code for them to tweak sametime to make modifications (like add text to the login screen) and then hook up some code so that when someone clicks ""Join as a guest"" an existing ST user is notified.
+From customer response:
+Speaking for myself, the business impact is that our mutual customer is finding the ST product difficult to use and extend. The competition is Microsoft Teams and the customer is getting asked (by his own clients and potential clients!) to use MS Teams when he's already paying for a fully-functional ST 
+"
+Sametime,Release Improvements/Maintenance,"Update to latest stable Jitsi 
+ ","We must periodically update to a stable version of jitsi in order to pull in various enhancements, bug fixes and security patches.
+
+The specific jitsi version will be selected as we are further along in the release and this epic and corresponding tickets will be updated to reflect the selected version. **
+
+The client and servers need to update to incorporate these updates, and possible fixes, etc. 
+"
+Sametime,Simplify Administration,"Configurable web/mobile session timeout 
+ ","Problem: If the old-web-client/old-browser-sdk is used in a background tab for more than 2 or 3 mins the client/user will be logged out, and the user's remote peers will see them as ""offline"".
+
+Root cause: When the client stops polling the server, the server assumes the client is gone, and logs out the user. Normally the client polls the server every 30s. But in a background tab, the old-web-client/old-browser-sdk the polling period becomes every 2 mins. This is due to the documented changes and chrome's throttling of timers: https://developer.chrome.com/blog/timer-throttling-in-chrome-88. Note this is not an issue with newer web-client code, where the documented work-arounds have been employed. These work arounds were not used in the old-web-client/old-browser-sdk.
+
+This affects all customers, doing integration with other products (ex: Connections, iNotes, Verse and any other 3rd party usage).
+
+Work around: This ticket represents the server-side work in v12.0.2-IF1. The work-around is a server-side setting to allow admins to extend the timeout used to detect an inactive user. So in v12.0.2-IF++, a single config item:
+
+SAMETIME_PROXY_SESSIONTIMEOUT=180
+
+This should be able, to be set to some value > 45s, such that the old-web-client/old-browser-sdk will survive running in the background tab for more than 2 or 3 mins.
+
+Side Effects: This removes the ""real time presence"" aspect for all client types where the client is inactive for normal reasons (ex: kills browser, sleeps laptop, out of wifi range, cell range, mobile powered off, airplane mode, etc). In these common cases the remote peers will continue to see the user as active for minutes after disconnecting instead of seconds. Some customers may see this as a flaw or bug, but it's a trade-off due to this work around.
+
+Note: This is not related to v11.6 in any way. V11.6 will be investigated and handled in a different ticket. 
+"
+Sametime,Chat Enhancements,"Announcements persistence in the chat 
+ ","Currently, if a chat-user or admin sends announcements to other users via chat, those disappear after few seconds. We need a way to show them in the chat client (perhaps as a tab).
+All clients should get announcements, not just active client (as it works today).
+
+User Stories:
+
+* User Story 1: As a Sametime Web Chat user, Meetings or Mobile user, I should be able to send an 1-1 or N-way announcement to a group I am a member of.
+* User Story 2: As a Sametime Web Chat user, Meetings or Mobile user, I should be able to view/receive an announcement.
+* User Story 3: As a Sametime Web Chat, Meetings or Mobile user, I should be able to reply back to the sender of the announcement .
+
+APNS support for Announcements 
+"
+Sametime,Simplify Administration,"Samettime  server upgrade in K8s plaltform should  preserve custom values 
+ ","Upgrading the Sametime environment from an older version like 12.0.1FP1 to 12.0.2FP2 on the Kubernetes platform, the custom values and custom setting in values.yaml file were reset.
+The custom values should be preserved after the Sametime server upgraded to the latest version. 
+"
+Sametime,Chat Enhancements,"LiveName support to start an instant meeting or click-to-call 
+ ","It would be a great step towards modern usability to be able to start a meeting with one single click with a person whenever I see the name somewhere in NotesClient (e.g. in emails, chats, address book etc.)
+
+This should be directly available not with the need to first start a chat with a person and then copy the URL of a meeting into the chat where the other person needs to click on. Simply click on the name (or right click) click on ""Start meeting"" and it should be ringing (as it is in Skype) 
+"
+Sametime,Chat Enhancements,"TechPreview: Client Platform Chat Widget Enhancements for v12.0.2 
+ ","The Chat widget provides a visual way to interact in a given conversion. It contains all of the information about the conversation (name, associated users, etc), the items in the conversation (messages, links, notifications, etc), and the ability to add to the conversation (send text, emoji, etc). Think of it as the right-hand side of the existing Web Chat Client.
+
+This epic will be done when all of the components, managers, utilities, and samples are available to fully demonstrate and consume this widget.
+
+This epic will build upon the Chat widget that initial widget shipped for v12.0.1 Tech Preview
+
+Overall Goals:
+Produce widget and/or component library for easy embedding of Sametime chat capabilities in other web based applications
+Initial set will be minimal, but needs to at least include:
+An embeddable Chat widget 
+"
+Sametime,Apple CarPlay and Android Auto support,"As a mobile user, I would like to be able to use Sametime with Apple CarPlay and Android Auto 
+ ","As a mobile user, I would like to be able to use Sametime with Apple CarPlay and Android Auto 
+"
+Sametime,Chat Enhancements,"Ability to delete chats 
+ ","Overview:
+This feature is introduced for the chat users to be able to delete their own chat.
+
+User Story 1:
+
+• As a Sametime Webchat user I should be able to Delete the chats I send.
+
+User Story 2:
+
+• As a Sametime Web chat user I should be able to receive/view the Deleted chat
+
+User Story 3:
+
+• As a Sametime Meeting chat user I should be able to Delete the chats I send
+
+User Story 4:
+
+• As a Sametime Meeting chat user I should be able to view/receive the Deleted chats
+
+User Story 5:
+
+• As a Sametime UIM chat user I should be able to Delete the chats I send
+
+User Story 6:
+
+• As a Sametime UIM chat user I should be able to receive/view the Deleted chat 
+"
+Sametime,Meetings Enhancements,"Meeting password complexity control 
+ ","Add the ability to set the password complexity settings for Sametime Meetings. So that anytime a meeting password is used, the set password complexity is enforced.
+
+The following settings in regards of password complexity are needed at the minimum:
+
+* Password length
+* Special characters (Yes/No)
+* Upper case characters (Yes/No)
+* Lower case characters (Yes/No)
+* Digits (Yes/No)
+
+Figma Link : https://www.figma.com/file/WsP3uBi0alnPfLNqfOQwlv/ST_Password-Complexity?node-id=1%3A237&t=SlSJXUgjRDCfaSMX-1
+
+Acceptance criteria's
+
+* Password Length: The password should be minimum 8 characters long.
+* Special Characters: The password should contain at least one special character, such as !@#$%^&*.
+Upper Case Characters: The password should contain at least one uppercase character.
+* Lower Case Characters: The password should contain at least one lowercase character.
+* Digits: The password should contain at least one digit (0-9).
+
+PS: It is mandatory to satisfy all of the above criteria's for successfully setting the password.
+
+Good to have/general guidelines for setting a password but not mandatory requirements for this epic.
+
+* No Dictionary Words: The password should not contain any dictionary words or easily guessable information.
+* No Repeating or Sequential Characters: The password should not contain any repeating or sequential characters, such as ""aaa"" or ""123"".
+* No Common Passwords: The password should not be a commonly used password, such as ""password"" or ""123456"".
+* No Personal Information: The password should not contain any personal information, such as the user's phone number or address.
+* Must be Unique: The password should be unique. 
+"
+Sametime,Chat Enhancements,"Auto in-meeting awareness status change 
+ ","In Sametime Premium 11.5, user's status in chat does not change even after attending a meeting. The status shall automatically change to ""in a meeting"" when a user is in a Sametime meeting.
+
+
+Everyone expect this behabiur as this is common function such in Microsoft Teams. 
+"
+Sametime,Meetings Enhancements,"Meeting home page tooltips, web client announcements, prevent active meeting deletion and recent meeting list enhancements 
+ ","Summary
+
+The following features are various feature requests/enhancements to the Client component from DRV/City of Stuttgart, and bugs converted to stories for 12.02FP1.
+
+List of feature stories:
+
+1. In both My Meetings and Recent tab, tooltip is not displayed when meeting name has a long string. (
+SAME-50204
+ (https://jira.cwp.pnp-hcl.com/browse/SAME-50204) )
+2. Meeting-client_recent meeting list is not updated when joined the meeting from recent list and kept the recent list undisturbed (
+SAME-50276
+ (https://jira.cwp.pnp-hcl.com/browse/SAME-50276) )
+3. Chat client enhancement: Change the announcements dialog that displays after announcement is sent to a toaster popover. (
+SAME-51017
+ (https://jira.cwp.pnp-hcl.com/browse/SAME-51017) )
+4. As a Meeting Client user, I should have a different user experience when deleting a running meeting(active) from my meetings tab. (
+SAME-49486
+ (https://jira.cwp.pnp-hcl.com/browse/SAME-49486) )
+5. Recent meeting list, the Recent meeting s tab spacing is very cramped. (
+SAME-49980
+ (https://jira.cwp.pnp-hcl.com/browse/SAME-49980) ) 
+"
+Sametime,Simplify Deployment,"Domino Database (NSF) support 
+ ","Show customers that NSF is such a good repository that it can be used for Sametime instead of using MongoDB, as well as making the installation and maintenance process much easier for a Domino Administrator.
+
+Customers will trust and enjoy Domino more if it becomes a platform that can offer various services as before, as it was with Quickplace (Quickr), Domino Doc, Lotus Workflow, without the need for additional software like MongoDB. 
+"
+Sametime,Chat Enhancements,"Show ""Contact Info"" on contact hover 
+ ","In a chat window of Sametime V11 Connect client or (Notes embedded client), when you put cursor on the icon of chat participant, you can see a pop up like the attachment in this idea document.
+
+The customer anticipate the business card pop up can be displayed for this participant. 
+"
+Sametime,Security Enhancements,"OIDC support for Nomad integration 
+ ","Nomad/Domino integration is requiring OIDC support.
+
+– From Doug C –
+
+We are looking to do have our first delivery of Nomad and Sametime integration in Dec (1.0.14) which will have modest integration but it will be a start.
+
+As we dig more, in the short term, there are likely going to be compromises that will be necessary. Longer term collaboration across the teams over the next couple of releases will be needed to provide better user experiences, and a smooth single sign on.
+
+For single sign on, using modern protocols, we'd like Sametime to support OIDC support. We are being told that this is in the backlog, but has not been prioritizied. Question: Can we get this prioritized higher than just in the backlog? (I assume it is not currently being worked based on talking to the team)
+
+Question: Can we also agree across Product Management to prioritize the integration between Nomad, Verse and ST in general and let the teams work out some of the low level details that will entail?
+
+Some specifics from recent dev interactions: (there are and will be more, just a gist some of the conversation)
+authorization flows, and how to make that seamless for a user perspective for auto-login
+initiation of chats from Nomad, Verse and ST and not having a different Tab or browser window for each experience
+I know as we work through specifics, more specific work will be identified. Can you please confirm that this collaboration across the teams is a priority. and has your backing?
+
+– references –
+
+JIRA: Nomad for WebAssembly- NWASM-1923 (https://jira.cwp.pnp-hcl.com/browse/NWASM-1923) - Sametime integration
+https://jira.cwp.pnp-hcl.com/browse/NWASM-1923
+
+FIGMA: Nomad/Verse to Sametime
+https://www.figma.com/design/10nlgo5wOsPnmaqsDTaX5I/Verse%2FNomad-to-ST-%2B-Comet-OneDrive-UI?node-id=178-5293&t=wQ49qN3qYpiJ9xvZ-0
+
+Previous requirements spreadsheet:
+https://docs.google.com/spreadsheets/d/17x34ODv6GE9fmlbPDCVIreTWhRdzhfwaTr5MlGUsj6o/edit#gid=0 
+"
+Traveler,Capacity/Performance Enhancement,"Improved Traveler capacity per server/pool 
+ ","Test Capacity of 3 server Traveler HA pool on linux64(Centos) beyond 4.5K per server 
+"
+Traveler,Security Enhancement - Authentication and Encryption,"SAML Support for HCL Verse Mobile Clients 
+ ","There is no possibility to use SAML on mobile devices for IBM Traveler.
+
+It would be great, if mobile users could use their AD credentials to authentificate them, instead of the ibm notes/internet password.
+
+IBM Traveler authentication does not work correctly when the Domino server is configured to use Security Assertion Markup Language (SAML).
+
+The means by which the SAML identity provider passes the authentication assertion to Domino is currently unsupported in the IBM Traveler environment.
+
+https://www.ibm.com/support/knowledgecenter/de/SSYRPW_9.0.1/lotusnotestravelerserverlimitationsandrestrictions.html 
+"
+Traveler,Capacity/Performance Enhancement,"Allow Traveler on single server to serve Verse Mobile and HTMO 
+ ","As of today (Traveler 11.0.1+) we are still required to have two separate server in case we need to support both mobile devices (activesync and verse apps) and Outlook desktop clients.
+
+This is, for smaller customers, a limiting factor (but could also make sense for larger customers with branches etc)
+
+The enhancement request and idea is to allow traveler to work in ""both"" modes on a single server.
+
+My ideal deployment scenario is:
+
+* Install domino + traveler
+* Enable the traveler service for mobile, outlook or both
+* Serve devices and desktop clients from a single server.
+
+I expect that other previous requirement will remain:
+
+1. Active sync can work with remote replicas
+2. Outlook support requires a local replica. 
+"
+Traveler,Notification Improvement,"Increase push changes time interval 
+ ","Always push read/unread changes (affect the notification on client slde) 
+"
+Traveler,Remove Legacy Features/ Support,"Revisit wash in v12 
+ ","There is still some places in Traveler are with IBM logo/ or not yet washed 
+"
+Traveler,"S/MIME support for Verse(web, iOS, Android)"," S/MIME for Verse Mobile Clients 
+ ","Today, it is not possible to send/receive s/MIME emails in Verse Mobile Clients
+
+Requested Feature:
+
+* Traveler needs to support S/Mime on Verse clients including outlook 
+"
+Traveler,Calendar Improvement (Stretch goal),"(Stretch goal) Calendar Improvement 
+ ","* Add/ Remove attachment when you create a meeting invite (Under Discussion)
+* Alternate name support (Under Discussion) 
+"
+Traveler,Rooms and Resources Improvement,"Rooms and Resources Improvement - Applied to Apple Mail only 
+ ","If a user changes the meeting time and date on the mobile devices (iOS Apple Mail), the corresponding room and resources will be rescheduled or cancelled depends on availability 
+"
+Traveler,Security Enhancement - Authentication and Encryption,"Encryption for Derby Database 
+ ","In the security review, Eric Portner indicated the Derby database is unencrypted. Customers with high secure needs may want to encrypt the database 
+"
+Traveler,Mail Experience Improvement,"Support SF/SR with Traveler 
+ ","To support mobile clients (Verse Android/iOS) for Smart forward/smart reply email:
+Client user story: VRSOP-287 (https://hcl-software.aha.io/features/VRSOP-287?reference-class=Feature) 
+"
+Traveler,Security Enhancement - Authentication and Encryption,"Support TOTP with Traveler 
+ ","Provide server support for TOTP implementation on mobile clients:
+VRSOP-320 (https://hcl-software.aha.io/features/VRSOP-320?reference-class=Feature) 
+"
+Traveler,Calendar Improvement (Stretch goal),"MS teams meeting links in Verse on Device 
+ ","Online meeting invitations from MS Teams sent externally are showing correctly in Notes client but there is no link to join the meeting in Verse. Verse on Mobile just displays the plain text.
+
+As per the Traveler Documentation it's a limitation.
+
+Rich Text is not supported for calendar entries: Rich Text is not supported for calendar entries. Traveler converts the rich text description to plain text before sending the calendar entry to the devices, so the device display of the description text on the device may look different than it looks in the Notes client.
+https://help.hcltechsw.com/traveler/12.0.0/GeneralLimitations.html
+
+Please allow these links on verse on mobile as well. 
+"
+Traveler,Admin Capability Enhancement,"Have other ways to deploy new APNS certificates.  
+ ","Currently, customers need to install latest fix for Traveler to be able to update their APNS certificates which are used to push notifications to Traveler apps on iOS devices. A customer would like to prevent having to shut down the Domino server when installing Traveler fix packs to update the APNS certificates. However, Customer is aware that doing so includes Traveler fixes that are also beneficial for their environment. Customer was wondering if the certificates can be provided separately since it seems to be possible to just overwrite the existing certificates. 
+"
+Traveler,Admin Capability Enhancement,"Customize the mail message shown in header when open an encrypted email 
+ ","As an administrator, I would like to customise the message that are shown at the top of an encrypted message.
+
+Current message:
+
+""This document is encrypted and requires either the use of Notes, iNotes, or the Verse web client to view the content, or view this message on your device using Traveler Companion. If Traveler Companion is not yet installed, download and install it from the app store.""
+
+Expected Message: (One of the examples)
+
+""This document is encrypted and requires either the use of HCL Notes (desktop app), HCL Verse (web), or the HCL Verse mobile app (available via the IBM app store.)""
+
+Currently, Traveler provides a few choices for messages shown 
+"
+Traveler,Calendar Improvement (Stretch goal),"Preserve online meeting formatting in the Location field 
+ ","Background:
+
+Currently, Sametime iOS mobile extract the meeting information from Verse iOS and iOS calendar, however, the formatting is lost during the sync up process.
+
+Acceptance criteria:
+
+(1) Changes needed to be made on the server and client side to make sure the format of online meeting location field is preserved 
+"
+Traveler,Admin Capability Enhancement,"Result of ""tell traveler cleanup show"" is a bit confusing. 
+ ","When running ""tell traveler cleanup show"", you will get the following output:
+
+Traveler: Cleanup Users: Determining if the Traveler database contains any devices which last synced over 1 days ago...
+
+Traveler: Cleanup Users: No cleanup required.
+
+Traveler: Cleanup Bind: No cleanup required.
+
+Traveler: Cleanup Outbox: Determining if any stale outbox records exist in the Traveler database...
+
+Traveler: Cleanup Outbox: No cleanup required.
+
+Traveler: Cleanup Admin: Determining if any orphan device records exist in the Traveler database...
+
+Traveler: Cleanup Admin: Searching administration data to remove devices deleted 1 day(s) ago...
+
+Traveler: Cleanup Admin: Admin data for Device <DeviceID> and user <UserID> would be removed
+
+Traveler: Cleanup Admin: 1 orphan device admin record(s) would be removed.
+
+Traveler: Cleanup Admin: No user cleanup required.
+
+Traveler: Cleanup GudRecordEx: Determining if any orphaned ts_gud_record_ex records exist in the Traveler database...
+
+Traveler: Cleanup GudRecordEx: No cleanup required.
+
+Traveler: Cleanup command completed successfully.
+
+
+
+The following line is making it confusing:
+
+Traveler: Cleanup Admin: 1 orphan device admin record(s) would be removed.
+
+Traveler: Cleanup Admin: No user cleanup required.
+
+
+It says 1 record would be removed by ""no user cleanup required"". Administrator that since 1 record would be removed, also 1 user cleanup is required.
+
+
+Maybe changing the wording of the result would eliminates administrators confusion about the output. 
+"
+Traveler for Microsoft Outlook-HTMO,Chair Calendar Attachment Support,"Calendar Attachment Support - Add as chair 
+ ","As a user, I'd like to have the attachment support in calendar so that I can
+
+* Add attachment to calendar for my invitees 
+"
+Traveler for Microsoft Outlook-HTMO,Chair Calendar Attachment Support,"Calendar Attachment - View Attachment as invitee 
+ ","* View attachment in calendar when I am in an invitee 
+"
+Traveler for Microsoft Outlook-HTMO,Chair Calendar Rich Text Support,"Improved rich text formatting and retention in Calendar entries, including notices and meetings. 
+ ","As the chair of a calendar event, I'd like to have rich text support for the calendar description so that I can
+
+* add HTML link in the calendar description
+* add a rich text signature into the calendar description
+* add an inline embedded image in the calendar description 
+"
+Verse,"Multiple Accounts: As a mobile user,  I need to be able to log into multiple accounts from the Verse mobile app.","Allow access to multiple mailboxes 
+ ","As a user of Verse iOS App
+I want to be able to configure more than one account.
+so that I can switch between the accounts and check emails.
+
+Acceptance Criteria
+
+Scenario 1: Switch between accounts on the same/different server with full credentials
+
+As a user, I have the credentials of different accounts, and I want to switch between these accounts on my mobile devices.
+
+(1)Able to add more than one account in my setting page/menu after configuration. The configuration process of second account should be the same as the first-time set up.
+(2)Able to access mail, calendar, contacts, to-dos and actions of that particular account
+(3)Able to configure notification settings (receive noti for all mail accounts or just one of them)
+
+Scenario 2: As a delegate, I want to add my master's account/shared mail-box on my mobile device
+
+(1) Able to access the master's account on mobile device without entering account's credentials. If there is more than 1 person delegated their mail files to me, I should be able to select which one to add to my mobile device.
+(2) Able to read and write mail, calendar. contacts, to-dos or actions based on the delegation access given by master.
+
+The limit of multiple accounts is 5 (including delegated accounts or accounts with credentials) 
+"
+Verse,"Multiple Accounts: As a mobile user,  I need to be able to log into multiple accounts from the Verse mobile app.","Allow access to multiple mailboxes 
+ ","As a user of Verse Android App
+I want to be able to configure more than one account.
+so that I can switch between the accounts and check emails.
+
+Acceptance Criteria
+
+Switch between accounts on the same/different server with full credentials
+
+As a user, I have the credentials of different accounts, and I want to switch between these accounts on my mobile devices.
+
+(1)Able to add more than one account in my setting page/menu after configuration. The configuration process of second account should be the same as the first-time set up.
+(2)Able to access mail, calendar, contacts, to-dos and actions of that particular account 
+"
+Verse,SAML Authentication - Verse iOS,"SAML Authentication  
+ ","* Support SAML Authentication in Verse iOS 
+"
+Verse,"As an administrator, I want HCL Verse clients to use TOTP for authentication","TOTP for Verse Android 
+ ","* Support two-factor authentication in Verse Android
+* Users should be able to use configure 3rd party authenticator(e.g. Authy) to login 
+"
+Verse,Hyperlink Display,"Hyperlink Display 
+ ","* User should be able to preview any URLs in email by long-pressing the link. This is an security enhancement which ensures users won't open an unknown link 
+"
+Verse,"As an administrator, I want HCL Verse clients to use TOTP for authentication","TOTP 
+ ","h2. *Acceptance Criteria:*
+
+*As an administrator* I would like my Verse mobile app users to be able to use TOTP credentials for authentication with the HCL Traveler server.
+*As an administrator* I would like ensure that a user is not prompted for the application password via Traveler policy when using TOTP since no application password is available in this configuration.
+
+*As a user* I should be able to complete my initial configuration of the Verse App with TOTP credentials.
+
+*As a user* I should be able to upgrade from basic auth to TOTP for my authentication credentials.
+
+*As a user* I expect to only be prompted when required by my TOTP administrator restrictions and no more frequently.
+*As a user* I would like to be notified immediately when my authentication has timed out AND a synchronization is required so that I can take action to re-enable data sync as quickly as possible.
+
+*As a user* I should be able to follow instructional information provided - whether inside the browser or externally - to complete my TOTP setup via the mobile device.
+
+*As a user* If I select the Setup MFA link on the TOTP login window I should be directed to complete the MFA setup on my desktop. 
+"
+Verse,"As an end user, I want to be notified if I have exceeded my mail quota","Mail Quota Notification 
+ ","Another requirement that came from TCS. They would like our clients to notify the user when an action fails due to ""quota exceeded"". Currently this information is in the logs but not otherwise surfaced to the end user. A pop-up might be useful. Will have to consider the whole error flow here and what actions a user can then take from the client. 
+"
+Verse,TOTP Support for Verse iOS,"TOTP Authentication 
+ ","* Support two-factor authentication in Verse Android
+* Users should be able to use configure 3rd party authenticator(e.g. Authy) to login 
+"
+Verse,SAML Authentication - Verse Android,"SAML Authentication - Verse Android 
+ ","* Support SAML for Verse Android 
+"
+Verse,Personal Groups - Verse Android,"Personal Groups  
+ ","* Support Search/Create/Edit and Delete Personal Groups on mobile device 
+"
+Verse,Smart Forward/Smart Reply - Verse iOS,"Smart Forward/Smart Reply 
+ ","* Currently, users need to download the attachment from an email. When he/she replies it, the attachment will be send again from the device to the server.
+* Users should be able to reply/forward the attachment with email even without downloading them in their device 
+"
+Verse,Enhancing Out-of-Office in Verse,"Out-of-Office - Different message to specific people, groups or domains 
+ ","Problem:
+
+As a user I need a way to send a different OoO message to defined sets of people. This is available in Notes and iNotes so I would like to be able to have the same control in verse.
+
+
+Proposed Solution:
+
+Replicate the options available in Notes and iNotes.
+
+Acceptance Criteria:
+
+As a user I have the same control over my Out of Office as I would have in Notes or iNotes 
+"
+Verse,iNotes features needed,"Modify a received mail 
+ ","Possibility to edit, modify a received mail in Verse
+
+This option is available in iNotes but not in Verse 
+"
+Volt MX,Resolve libraries with Foundry Low vulnerabilities from WhiteSource rescan,"Resolve libraries with Low vulnerabilities in the s3-foundry/features/auth repo 
+ ","Note: This story can be broken down into tasks as needed to complete the work. Feel free to update squad, sprint, and story points as needed in order to track the story.
+
+The following is a list of libraries in the repo that are marked by WhiteSource as having a medium vulnerability. Each library in this list needs to be investigated and resolved:
+
+Unique Libraries to address- This tab contains unique libraries list, and Reference tab contains all the libraries with duplicates for mentioned repo.
+
+https://teams.microsoft.com/l/file/53696A3A-CD94-450E-812D-BA664F735C05?tenantId=189de737-c93a-4f5a-8b68-6f4ca9941912&fileType=xlsx&objectUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix%2FShared%20Documents%2FCode%20Hygiene%2FQ3-Code-Hygiene%2FInitial%20Scan%20Result%2FWhiteSource%2FExcel%20files%2FLow%2Fs3-foundry_features_auth_Low_vulnerabilities.xlsx&baseUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix&serviceName=teams&threadId=19:65e2d1c5ef3443a6b4bf15d065de8ea0@thread.tacv2&groupId=8aaa5f03-5dda-4a3c-8390-8879883d06e9
+
+Note: libraries with a location that starts with .m2 are either external resources or libraries located in our maven artifactory. Additional research may be required to determine where these libraries are being pulled in. The ""mvn dependency:tree"" command may be helpful. This will list out the dependencies pulled in for a particular pom. For these libraries, please see the ""Notes"" column of the spreadsheet, which documents additional repos where these libraries are found. Please work with owners of the stories for those repos to ensure that no builds are broken by updating.
+
+A library can be considered resolved when one of these 4 criteria are met (select the applicable resolution in the ""Resolution"" column of the spreadsheet):
+
+1. Library is not included in a shippable product
+2. Library has been updated to a version that no longer contains a vulnerability (record the new version in the ""Resolution Details"" column of the spreadsheet)
+3. The vulnerability is confirmed to be Not Applicable (record the reason in the ""Resolution Details"" column of the spreadsheet)
+4. We have an approved and documented mitigation plan in place (record the details of the plan in the ""Resolution Details"" column of the spreadsheet) 
+"
+Volt MX,Epic for Video Creation and Edit Q2,"Multimedia Video Creation: Doc Rebranding-Videos-Configuration of an Offline Object 
+ ","Area of Work: FOUNDRY + IRIS
+
+Animation Help Needed: Yes
+
+Technical Help Needed: No
+
+Existing Video Link:  https://www.youtube.com/embed/-_B2foVt7e4
+
+Details:
+
+Configuration of an Offline Object 
+"
+Volt MX,Code Hygiene - Resolve Versions of Libraries with High Vulnerabilities,"Resolve libraries with high vulnerabilities in the eas repo 
+ ","Note: This story can be broken down into tasks as needed to complete the work. Feel free to update squad, sprint, and story points as needed in order to track the story.
+
+Attached is a list of libraries in the repo that are marked by WhiteSource as having a high vulnerability. Each library in this list needs to be investigated and resolved.
+
+Note: libraries with a location that starts with .m2 are either external resources or libraries located in our maven artifactory. Additional research may be required to determine where these libraries are being pulled in. The ""mvn dependency:tree"" command may be helpful. This will list out the dependencies pulled in for a particular pom. For these libraries, please see the ""Notes"" column of the spreadsheet, which documents additional repos where these libraries are found. Please work with owners of the stories for those repos to ensure that no builds are broken by updating.
+
+In addition, the Code Hygiene team is currently working on determining which libraries are shipped. When this process has been completed, a comment will be made in this story indicating that it is ready to be worked on, and it will be moved from the Blocked state to the ToDo state. No additional steps will be needed for issues that are not shipped.
+
+A library can be considered resolved when one of these 4 criteria are met (select the applicable resolution in the ""Resolution"" column of the spreadsheet):
+
+1. Library is not included in a shippable product
+2. Library has been updated to a version that no longer contains a vulnerability (record the new version in the ""Resolution Details"" column of the spreadsheet)
+3. The vulnerability is confirmed to be Not Applicable (record the reason in the ""Resolution Details"" column of the spreadsheet)
+4. We have an approved and documented mitigation plan in place (record the details of the plan in the ""Resolution Details"" column of the spreadsheet)
+
+ALL LIBRARIES MUST BE RESOLVED PRIOR TO RELEASE 
+"
+Volt MX,Foundry AppScan Action Epic ,"Resolve high vulnerability issues reported by AppScan in the DesktopWeb 
+ ","Report Attached 
+"
+Volt MX,Volt MX 9.2.36 - Release Deliverables ,"9.2.36 - Eng - Whitesource OSS scan 
+ ","Final reports for Whitesource OSS scan readiness checkpoint. 
+"
+Volt MX,Cloud Jira GIT Access Management,"Access for Staging Environment 
+ ","We need access for Staging environment for below members.
+1. Kuldeep Rai - kuldeep.rai@hcl.com
+2. Rishabh Barman - barmanr@hcl.com
+3. Harshita Jha - harshitaj@hcl.com 
+"
+Volt MX,Appview T13 for Agniyar63,"Sanity test cloud preview on dev 
+ ","Sanity test cloud preview on dev. 
+"
+Volt MX,"Resolve licenses for libraries with licenses listed as ""Requires Review""","Determine License for Unspecified Licenses in Mbaas 
+ ","Feel free to update squad, sprint, and story points as needed in order to track the story.
+
+Attached is a list of libraries in the repo that have dependencies with unspecified or suspected licenses.
+
+Do the following for each library:
+
+1. If the library is not in shipped code, there will be an N in column F. No additional information is necessary. If the library is in shipped code, there will be a Y in column F. Continue to step 2.
+2. If the library is In-House, select Y in column G. If the library is not In-House, select N in column G and continue.
+3. Determine the source of the library (i.e github repo/website the library was downloaded from). Input the source location in column I and continue.
+4. Determine the license that the library falls under and fill it into column H.
+
+Once these steps have been completed for each repo, please attach the completed spreadsheet to this issue, and @ mention Lauren Brown (https://jira01.hclpnp.com/secure/ViewProfile.jspa?name=lauren.brown%40hcl.com) in a comment when closing the issue. 
+"
+Volt MX,[develop] api wash - mbaas_sdk repo,"[prototype] mbaas_sdk repo - kony.sdk.init - backward compatibility 
+ ","Validate backward compatibility for rebranded api of kony.sdk.init 
+"
+Volt MX,Resolve Medium Vulnerability Issues Reported by AppScan,"Resolve medium vulnerability issues reported by AppScan in the luavmiphone repo 
+ ","Story to contain all Tasks for resolving medium vulnerability issues detected by AppScan in this repo. Note that not all tasks for this story have been created at this time.
+
+The following link is to a spreadsheet containing all of the medium vulnerability fix groups for issues in this repo:
+
+https://teams.microsoft.com/l/file/7BC6F408-6B64-4B3B-A231-28D60040B7ED?tenantId=189de737-c93a-4f5a-8b68-6f4ca9941912&fileType=xlsx&objectUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix%2FShared%20Documents%2FCode%20Hygiene%2FAppScanResults%2FMedium%2Fluavmiphone_AppScanMediumVulnerablityFixGroups.xlsx&baseUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix&serviceName=teams&threadId=19:65e2d1c5ef3443a6b4bf15d065de8ea0@thread.tacv2&groupId=8aaa5f03-5dda-4a3c-8390-8879883d06e9
+
+For each fix group, the number of issues within the fix group is documented. Please note that fix groups with more than 50 issues have been broken up into groups of 50 or fewer issues.
+
+Please follow the following process when working on these vulnerabilities:
+
+1. Open the spreadsheet and find a fix group, (or a section of a fix group with many issues) and add your name to the ""Owner"" section.
+2. Create any stories that are needed for the work, and add them to this epic. Add a link to the story in the ""Notes"" section of the spreadsheet.
+3. When work is begun, select ""In Progress"" in the  ""Status"" column.
+4. Refer to the attached AppScan report for specific information on the issues you have selected to work on.
+5. Resolve each Medium severity issue in the fix group (or fix group subset). Any issues that are not Medium severity can be ignored at this time. Each issue can be considered resolved when one of these 4 criteria are met:
+
+1.
+
+a. Code where issue was identified is not included in a shippable product
+b. Issue has been fixed
+c. Issue is confirmed to be not applicable
+d. We have an approved and documented mitigation plan in place
+
+2. Be sure to track which of the 4 resolution criteria applies to each issue.
+3. Once each issue is resolved, update the ""Status"" column in the spreadsheet to ""Ready for Test""
+4. If all issues in the group have the same resolution, select the appropriate resolution in in the ""Resolution Column"" and any necessary details in the ""Resolution Details Column""
+5. If the issues have different resolutions, select ""Mixed"" in the Resolution column. In the ""Resolution Details"" column, note where the specific resolution is documented for each issue (can be included in a jira ticket, or in a separate tab of the spreadsheet).
+
+Note: DO NOT mark the status for any issues as ""Done"", regardless of the resolution type. This will be done by the Code Hygiene team once the issues have been appropriately marked and processed in AppScan. 
+"
+Volt MX,Volt MX 9.2: Foundry Design time: Latest 9.2 fix packs from Temenos to be washed & released,"Accounts/APIPortal: Run Unit Test post phx-dev merge and Nexus promotion  
+ ","Accounts/APIPortal: Run Unit Test post phx-dev merge and Nexus promotion
+
+Pre-requisites:
+
+1. Merge phx-dev-9.2.x to phx-dev
+2. Nexus Promotion
+
+Expected:
+
+1. Run UTs
+2. Analyze failures 
+"
+Volt MX,[develop] api wash - konywebstudios repo,"Wash files relating to Notes functionality in Iris 
+ ","Following files missed wash.
+
+* preview/FPAssets/src/KPopupTemplates.js
+* preview/FPAssets/src/KAnnotationsPopup.js 
+"
+Volt MX,Resolve libraries with Foundry Medium vulnerabilities from WhiteSource rescan,"Resolve libraries with medium vulnerabilities in the s3-foundry/features/auth repo 
+ ","Note: This story can be broken down into tasks as needed to complete the work. Feel free to update squad, sprint, and story points as needed in order to track the story.
+
+The following is a list of libraries in the repo that are marked by WhiteSource as having a medium vulnerability. Each library in this list needs to be investigated and resolved:
+
+Unique Libraries to address- This tab contains unique libraries list, and Reference tab contains all the libraries with duplicates for mentioned repo.
+
+https://teams.microsoft.com/l/file/8F34212E-4F7D-4134-B22A-BD8CE92119F3?tenantId=189de737-c93a-4f5a-8b68-6f4ca9941912&fileType=xlsx&objectUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix%2FShared%20Documents%2FCode%20Hygiene%2FQ3-Code-Hygiene%2FInitial%20Scan%20Result%2FWhiteSource%2FExcel%20files%2FMedium%2Fs3-foundry_features_auth_medium_vulnerabilities.xlsx&baseUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix&serviceName=teams&threadId=19:65e2d1c5ef3443a6b4bf15d065de8ea0@thread.tacv2&groupId=8aaa5f03-5dda-4a3c-8390-8879883d06e9
+
+Note: libraries with a location that starts with .m2 are either external resources or libraries located in our maven artifactory. Additional research may be required to determine where these libraries are being pulled in. The ""mvn dependency:tree"" command may be helpful. This will list out the dependencies pulled in for a particular pom. For these libraries, please see the ""Notes"" column of the spreadsheet, which documents additional repos where these libraries are found. Please work with owners of the stories for those repos to ensure that no builds are broken by updating.
+
+A library can be considered resolved when one of these 4 criteria are met (select the applicable resolution in the ""Resolution"" column of the spreadsheet):
+
+1. Library is not included in a shippable product
+2. Library has been updated to a version that no longer contains a vulnerability (record the new version in the ""Resolution Details"" column of the spreadsheet)
+3. The vulnerability is confirmed to be Not Applicable (record the reason in the ""Resolution Details"" column of the spreadsheet)
+4. We have an approved and documented mitigation plan in place (record the details of the plan in the ""Resolution Details"" column of the spreadsheet) 
+"
+Volt MX,Code Hygiene - Resolve Versions of Libraries with High Vulnerabilities,"Upgrade y18n-4.0.0.tgz to 5.0.5  - KonyIQ repo (HPHX-2227) 
+ ","Upgrade y18n-4.0.0.tgz to 5.0.5
+
+location
+
+konyiq\iqserver\node_modules\nyc\node_modules\y18n\package.json 
+"
+Volt MX,Q2 - Image Rebranding,"Blocker : Availability of GIT related pages for image washing 
+ ","GIT link which required washing as per HCL standards
+
+https://github.com/kony/Kony-Engagement-Service-Demo-Visualizer 
+"
+Volt MX,Cloud Jira GIT Access Management,"Need access for J2cent7ci 
+ ","Please provide the access for J2cent7CI machine. 
+"
+Volt MX,luavmandroid - validate api wash - Stargate Automation,"StargateAutomation test suite for the app - WTKAPIsF    
+ ","Please perform Stargate automation for the WTKAPIsF application.
+
+1. Consume the latest Android plugin from Jenkins.
+2. In case, we have no binaries provided, generate the binaries on IRIS using above plugin.
+
+Application source code is present at the location:  https://github01.hclpnp.com/phoenix-core/V9-Preview/tree/phx-dev/9.0
+
+DOD:
+
+1. Artifacts are APK file, TestNG screenshot, and Console logs.
+2. If the test suite fails, raise a bug with the above artifacts.
+
+As this is a repetitive task on the new plugin, whenever we are doing regression testing, clone this ticket into the desired sprint. 
+"
+Volt MX,[general] cross component activities,"all-wash (headers and api) iris and foundry - with phx-dev 
+ ","By May 14, we need a build for iris/plugin/foundry installers ... with all api wash and header wash changes ... based on latest phx-dev branch. 
+"
+Volt MX,Resolve libraries with Foundry High vulnerabilities from WhiteSource rescan,"Resolve libraries with high vulnerabilities in the kms repo from rescan 
+ ","Note: This story can be broken down into tasks as needed to complete the work. Feel free to update squad, sprint, and story points as needed in order to track the story.
+
+The following is a list of libraries in the repo that are marked by WhiteSource as having a high vulnerability. Each library in this list needs to be investigated and resolved:
+
+Unique Libraries to address- This tab contains unique libraries list, and Reference tab contains all the libraries with duplicates for mentioned repo.
+
+https://teams.microsoft.com/l/file/7ACA1E15-0A62-4471-A3A4-DBDF00C67921?tenantId=189de737-c93a-4f5a-8b68-6f4ca9941912&fileType=xlsx&objectUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix%2FShared%20Documents%2FCode%20Hygiene%2FQ3-Code-Hygiene%2FInitial%20Scan%20Result%2FWhiteSource%2FExcel%20files%2FHigh%2Fkms_High_vulnerabilities.xlsx&baseUrl=https%3A%2F%2Fhclo365.sharepoint.com%2Fsites%2FHCLLabsProjectPhoenix&serviceName=teams&threadId=19:65e2d1c5ef3443a6b4bf15d065de8ea0@thread.tacv2&groupId=8aaa5f03-5dda-4a3c-8390-8879883d06e9
+
+Latest Scan Result
+
+https://hclo365.sharepoint.com/:x:/r/sites/HCLLabsProjectPhoenix/Shared%20Documents/Code%20Hygiene/Q3-Code-Hygiene/Scan%20Result/WhiteSource/Excel%20files/High/kms_High_vulnerabilities.xlsx?d=w7aca1e150a624471a3a4dbdf00c67921&csf=1&web=1&e=9u7XF9
+
+Note: libraries with a location that starts with .m2 are either external resources or libraries located in our maven artifactory. Additional research may be required to determine where these libraries are being pulled in. The ""mvn dependency:tree"" command may be helpful. This will list out the dependencies pulled in for a particular pom. For these libraries, please see the ""Notes"" column of the spreadsheet, which documents additional repos where these libraries are found. Please work with owners of the stories for those repos to ensure that no builds are broken by updating.
+
+A library can be considered resolved when one of these 4 criteria are met (select the applicable resolution in the ""Resolution"" column of the spreadsheet):
+
+1. Library is not included in a shippable product
+2. Library has been updated to a version that no longer contains a vulnerability (record the new version in the ""Resolution Details"" column of the spreadsheet)
+3. The vulnerability is confirmed to be Not Applicable (record the reason in the ""Resolution Details"" column of the spreadsheet)
+4. We have an approved and documented mitigation plan in place (record the details of the plan in the ""Resolution Details"" column of the spreadsheet) 
+"
+Volt MX,Foundry e2e - Identify and setup e2e environments for dev testing,"[Foundry E2E] : Fix Metrics E2E automation job 
+ ","[Foundry E2E] : Fix Metrics E2E automation job http://foundrytest1.fnxlabs.com:8080/job/MetricsE2E/ 
+"
